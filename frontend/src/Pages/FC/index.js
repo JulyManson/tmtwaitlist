@@ -38,16 +38,6 @@ export function FCRoutes() {
       <Route exact path="/fc/notes/add">
         <NoteAdd />
       </Route>
-      {authContext.access["stats-view"] && (
-        <Route exact path="/fc/documentation">
-          <GuideFC />
-        </Route>
-      )}
-      {authContext.access["fleet-view"] && (
-        <Route exact path="/fc/trainee">
-          <GuideFC />
-        </Route>
-      )}
     </>
   );
 }
