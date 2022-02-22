@@ -60,7 +60,7 @@ export function Menu({ onChangeCharacter, theme, setTheme }) {
       {(whoami) => (
         <NavBar>
           <NavBar.LogoLink to="/">
-            <NavBar.Logo src={logoImage} alt="The Ditanian Fleet" />
+            <NavBar.Logo src={logoImage} alt="Triangular Money Train" />
           </NavBar.LogoLink>
           <NavBar.Menu>
             {whoami && (
@@ -76,9 +76,6 @@ export function Menu({ onChangeCharacter, theme, setTheme }) {
                 </NavBar.Link>
               </>
             )}
-            <NavBar.Link exact to="/guide">
-              Guides
-            </NavBar.Link>
             <NavBar.Link exact to="/fits">
               Fits
             </NavBar.Link>
@@ -121,7 +118,7 @@ export function Menu({ onChangeCharacter, theme, setTheme }) {
                 </InputGroup>
               )}
               <InputGroup>
-                <AButton title="Discord" href="https://discord.gg/YTysdbb">
+                <AButton title="Discord" href="https://discord.gg/eVC33nVEcy">
                   <FontAwesomeIcon icon={faDiscord} />
                 </AButton>
                 <EventNotifier />
