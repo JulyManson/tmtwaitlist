@@ -11,6 +11,16 @@ categories:
     name: Starter
   - id: alt
     name: Alts
+  - id: dps
+    name: DPS
+  - id: ewar
+    name: EWAR
+  - id: links
+    name: Links
+  - id: scout
+    name: Scouts
+  - id: support
+    name: Support
 
 rules:
   # Logi
@@ -19,6 +29,8 @@ rules:
   - item: Guardian
     category: logi
   - item: Nestor
+    category: logi
+  - item: Zarmazd
     category: logi
   # Starter tank
   - item: Multispectrum Energized Membrane II
@@ -66,3 +78,9 @@ rules:
     category: sniper
   - item: Kronos
     category: cqc
+  - item: Tempest
+    category: dps
+  - item: Vedmak
+    category: dps
+  - item: Ikitursa
+    category: dps
