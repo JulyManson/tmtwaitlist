@@ -8,7 +8,7 @@ import { Search } from "./Search";
 import { Statistics } from "./Statistics";
 import { FleetCompHistory } from "./FleetCompHistory";
 import { NoteAdd } from "./NoteAdd";
-import { FCMenu, GuideFC } from "./FCMenu";
+
 
 export function FCRoutes() {
   const authContext = React.useContext(AuthContext);
