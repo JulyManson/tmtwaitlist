@@ -1,5 +1,5 @@
 import { Content } from "../Components/Page";
-import { NavLink } from "react-router-dom";
+
 
 export function Home() {
   return (
